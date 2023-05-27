@@ -36,7 +36,7 @@ public class RetriveImgApp {
     }
 
     public static void main(String[] args){
-        Mat mat = new Mat(200,300,CV_8UC3);
+        Mat mat = new Mat(200,300, CV_8UC3);
         setColors(mat, false, 1);
         setColors(mat, true, 0);
         Imgcodecs.imwrite("D:/very test/rgbcmy.jpg", mat);
